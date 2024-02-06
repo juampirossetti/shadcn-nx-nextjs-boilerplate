@@ -39,6 +39,11 @@
           "codeCoverage": true
         }
       }
+    },
+    "@nx/webpack:webpack": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "namedInputs": {
@@ -66,7 +71,19 @@
       }
     },
     "@nx/react": {
-      "library": {}
+      "library": {
+        "style": "css",
+        "linter": "eslint"
+      },
+      "application": {
+        "babel": true,
+        "style": "css",
+        "linter": "eslint",
+        "bundler": "webpack"
+      },
+      "component": {
+        "style": "css"
+      }
     }
   },
   "nxCloudAccessToken": "ODkzYjhmNTUtOThmMC00YjY1LTgwZTUtZTYxMDE5YzY4ZGYwfHJlYWQtd3JpdGU="
