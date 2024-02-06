@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-org/ui-components": ["libs/ui-components/src/index.ts"],
-      "@my-org/ui-components/server": ["libs/ui-components/src/server.ts"],
+      "@my-org/ui-components/*": ["libs/ui-components/*"],
       "@my-org/ui-components/styles": [
         "libs/ui-components/src/styles/global.css"
       ]

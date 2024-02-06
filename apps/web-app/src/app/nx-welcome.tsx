@@ -5,7 +5,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@my-org/ui-components';
+} from '@my-org/ui-components/src/components/ui/dropdown-menu';
 
 export function NxWelcome({ title }: { title: string }) {
   return (
