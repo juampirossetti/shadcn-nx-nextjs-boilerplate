@@ -4,7 +4,7 @@
   "rsc": false,
   "tailwind": {
     "config": "@my-org/ui-components/tailwind.config.js",
-    "css": "@my-org/ui-components/global.css",
+    "css": "@my-org/ui-components/styles/global.css",
     "baseColor": "stone",
     "cssVariables": true
   },

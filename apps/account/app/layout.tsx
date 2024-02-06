@@ -1,4 +1,4 @@
-import './global.css';
+import '@my-org/ui-components/styles';
 
 export const metadata = {
   title: 'Welcome to account',
