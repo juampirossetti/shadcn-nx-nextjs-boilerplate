@@ -3,8 +3,8 @@
   "style": "new-york",
   "rsc": false,
   "tailwind": {
-    "config": "apps/account/tailwind.config.js",
-    "css": "apps/account/app/global.css",
+    "config": "@my-org/ui-components/tailwind.config.js",
+    "css": "@my-org/ui-components/global.css",
     "baseColor": "stone",
     "cssVariables": true
   },
